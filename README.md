@@ -29,7 +29,7 @@ This will initialize an renv project in this directory.  Then run `fsdam-test.sh
 Note that this script will not run successfully as we do not pass in all necessary arguments.  You should see output like this:
 
 ```
-(base) rhino03[~/Tickets/4753-bborate](main): ./fsdam-test.sh
+(base) rhino03[~/fsdam-example](main): ./fsdam-test.sh
 
 The following have been reloaded with a version change:
   1) FFTW/3.3.8-gompi-2020b => FFTW/3.3.8-gompic-2020b
