@@ -8,6 +8,11 @@
       }
     ]
   },
+  "Python": {
+    "Version": "3.8.6",
+    "Type": "virtualenv",
+    "Name": "/home/mrg/.virtualenvs/pytorch"
+  },
   "Packages": {
     "FSDAM": {
       "Package": "FSDAM",

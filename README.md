@@ -27,3 +27,13 @@ R --slave -e 'renv::init()'
 This will initialize an renv project in this directory.
 
 Run `./fsdam-test.sh`.  The FSDAM calculation should run successfully (takes about 40-50 seconds) and should output several data frames
+
+## Managing PyTorch with renv
+
+ - load R and base python
+ - renv::use_python(type='virtualenv', name='pytorch')
+ - library('reticulate')
+ - reticulate::virtualenv_install(envname='pytorch', 'torch')
+ - renv::snapshot()
+
+
