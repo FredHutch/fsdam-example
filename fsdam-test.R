@@ -3,7 +3,9 @@
 library('reticulate')
 library('FSDAM')
 
-FSDAM::fsdam(
+py_config()
+
+res <- FSDAM::fsdam(
              dat=hvtn505tier1[,-1],
              opt_numCode=2,
              opt_seed=1,

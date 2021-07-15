@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ml R/4.0.4-foss-2020b
-ml PyTorch/1.7.1-fosscuda-2020b
+ml Python/3.8.6-GCCcore-10.2.0
 
-# renv environment variables here
+. /home/mrg/.virtualenvs/pytorch/bin/activate
 
 ./fsdam-test.R
