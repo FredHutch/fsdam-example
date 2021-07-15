@@ -19,3 +19,5 @@ res <- FSDAM::fsdam(
              opt_ortho=1,
              opt_earlystop="no"
              )
+
+res$history
